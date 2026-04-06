@@ -1,0 +1,243 @@
+{
+  "business_name": "Dental Solutions of Central Park",
+  "phone": "(303) 399-1488",
+  "website_url": "https://dentalsolutionsofcp.com/",
+  "address": "2501 Dallas St #224, Aurora, CO 80238",
+  "hours": {
+    "monday": "7:00 AM - 3:00 PM",
+    "tuesday": "7:00 AM - 3:00 PM",
+    "wednesday": "7:00 AM - 3:00 PM",
+    "thursday": "7:00 AM - 3:00 PM",
+    "friday": "Closed",
+    "saturday": "Closed",
+    "sunday": "Closed"
+  },
+  "doctor_name": "Dr. Blake Weber & Dr. Hunter Weber",
+  "doctor_credentials": "Both DDS (Doctor of Dental Surgery). Dr. Blake Weber: DDS from University of Tennessee, BS Zoology from University of Arkansas — 30+ years in practice. Dr. Hunter Weber: DDS from University of Tennessee in Memphis, BS Biology from University of Alabama at Birmingham — specializes in restorative dentistry, Invisalign, and full mouth reconstruction.",
+  "services": [
+    "Dental Exams & Cleanings",
+    "Dental Sealants",
+    "Fluoride Treatments",
+    "Oral Cancer Screenings",
+    "Athletic Mouthguards",
+    "Nightguards for Bruxism",
+    "Sleep Apnea Appliances",
+    "TMJ / TMD Therapy",
+    "Tooth-Colored Fillings",
+    "Dental Crowns & Bridges",
+    "Root Canal Therapy",
+    "Dental Implants",
+    "Tooth Extractions",
+    "Complete & Partial Dentures",
+    "Professional Teeth Whitening",
+    "Porcelain Veneers",
+    "Invisalign Clear Aligner Therapy",
+    "Botox / Dermal Fillers",
+    "Emergency Dentistry"
+  ],
+  "google_rating": 5.0,
+  "google_review_count": 551,
+  "reviews": [
+    {
+      "source": "Google / Birdeye",
+      "reviewer": "Melissa Godes",
+      "rating": 5,
+      "text": "This dental group is very warm and caring for their clients. I took my 91-year-old mom here — they decorated for her birthday!",
+      "tags": ["family", "staff", "trust", "warmth"]
+    },
+    {
+      "source": "Google / Birdeye",
+      "reviewer": "Jessica Ochoa",
+      "rating": 5,
+      "text": "Abby is an amazing hygienist. She took her time to explain everything to me and my appointment did not feel rushed at all!",
+      "tags": ["staff", "hygienist", "thorough", "communication"]
+    },
+    {
+      "source": "Google / Birdeye",
+      "reviewer": "Sierra Thomas",
+      "rating": 5,
+      "text": "Our family has been coming here for several years, and we consistently have an excellent experience. The staff is warm, welcoming, and genuinely attentive.",
+      "tags": ["family", "trust", "staff", "loyalty"]
+    },
+    {
+      "source": "Google / Birdeye",
+      "reviewer": "Joseph Aisner",
+      "rating": 5,
+      "text": "The team used an oral scanner instead of the traditional molding process and created a replacement plan for my implant cap. Very impressed with the technology and the care.",
+      "tags": ["technology", "implant", "outcome", "trust"]
+    },
+    {
+      "source": "Google / Birdeye",
+      "reviewer": "Kaylan Wait",
+      "rating": 5,
+      "text": "As a dental student myself, the way both of these dentists and their staff treat patients is truly top notch. Thorough, skilled, and the bedside manner is exceptional.",
+      "tags": ["trust", "skill", "staff", "outcome"]
+    },
+    {
+      "source": "Google / Dentascore",
+      "reviewer": "Justin A.",
+      "rating": 5,
+      "text": "Simply put — they do everything right. Customer service, quality of care, scheduling, location, atmosphere. 10 out of 10 on every front.",
+      "tags": ["trust", "staff", "outcome", "experience"]
+    },
+    {
+      "source": "Google / Dentascore",
+      "reviewer": "CJ O.",
+      "rating": 5,
+      "text": "Wonderful dental practice, very friendly, highly recommend.",
+      "tags": ["staff", "trust"]
+    },
+    {
+      "source": "Google / Birdeye",
+      "reviewer": "Anonymous",
+      "rating": 5,
+      "text": "I can't say enough good things about Dental Solutions of Central Park! Dr. Blake and Dr. Hunter are seriously the nicest father/son duo — professional, kind, and always take the time to offer sound, straightforward advice. The entire team here is friendly, reliable, and quick.",
+      "tags": ["trust", "staff", "doctor", "communication"]
+    },
+    {
+      "source": "Practice Website",
+      "reviewer": "Donna S.",
+      "rating": 5,
+      "text": "I have used Dr. Weber as my dentist for years. He and his staff have always been friendly and thorough. He has taken very good care of our family. I recommend him very highly.",
+      "tags": ["loyalty", "family", "trust", "doctor"]
+    },
+    {
+      "source": "Google / Birdeye",
+      "reviewer": "Anonymous",
+      "rating": 5,
+      "text": "Dr. Blake Weber is the best dentist I have ever met. He is a pleasure to work with, communicative, and very gentle with my anxiety, and my mouth.",
+      "tags": ["fear-overcome", "trust", "doctor", "anxiety"]
+    },
+    {
+      "source": "Google / Birdeye",
+      "reviewer": "Anonymous",
+      "rating": 5,
+      "text": "Dr. Blake Weber and his son Dr. Hunter Weber are very friendly and capable dentists. Dr. Blake Weber was very informative and helpful with my questions about cavity prevention.",
+      "tags": ["doctor", "trust", "communication", "education"]
+    },
+    {
+      "source": "Google / Birdeye",
+      "reviewer": "Anonymous",
+      "rating": 5,
+      "text": "Dr. Hunter and Blake Weber are wonderful dentists and exceptionally knowledgeable about the work they do. They make you feel like family and walk you step by step through the procedure.",
+      "tags": ["doctor", "family", "trust", "communication"]
+    },
+    {
+      "source": "Google / Birdeye",
+      "reviewer": "Anonymous",
+      "rating": 5,
+      "text": "I'm really happy I made the switch! I've really enjoyed coming to Dental Solutions for several reasons: super friendly staff, clean and modern facility, open availability, and amazing care.",
+      "tags": ["staff", "facility", "trust", "experience"]
+    },
+    {
+      "source": "Google / Birdeye",
+      "reviewer": "Anonymous",
+      "rating": 5,
+      "text": "Always a great experience at Dental Solutions of Central Park. Lots of safety measures in place, including air filtration units in each room. I feel very comfortable and safe here.",
+      "tags": ["safety", "trust", "experience", "comfort"]
+    },
+    {
+      "source": "Google / Birdeye",
+      "reviewer": "Anonymous",
+      "rating": 5,
+      "text": "The team has really made an effort to get to know me and my family, and they are great with small children.",
+      "tags": ["family", "kids", "trust", "staff"]
+    },
+    {
+      "source": "Google / Birdeye",
+      "reviewer": "Anonymous",
+      "rating": 5,
+      "text": "Dental Solutions overall communicates well, is helpful, they know my name when I walk into reception, and my visits are seamless.",
+      "tags": ["communication", "staff", "experience", "trust"]
+    },
+    {
+      "source": "Google / Birdeye",
+      "reviewer": "Anonymous",
+      "rating": 5,
+      "text": "The front desk staff was very friendly and welcoming. My hygienist was amazing and welcoming. The doctor was kind and efficient. I was in and out in less than an hour.",
+      "tags": ["staff", "efficiency", "hygienist", "experience"]
+    },
+    {
+      "source": "Google / Birdeye",
+      "reviewer": "Anonymous",
+      "rating": 5,
+      "text": "Conveniently located right inside Stanley Marketplace — the perfect combo of great dental care and convenience.",
+      "tags": ["location", "convenience", "experience"]
+    },
+    {
+      "source": "Google / Birdeye",
+      "reviewer": "Anonymous",
+      "rating": 5,
+      "text": "Everyone from the front desk to the dental hygienists and doctors are just amazing and make me feel very comfortable and welcome.",
+      "tags": ["staff", "comfort", "fear-overcome", "trust"]
+    },
+    {
+      "source": "Google / Birdeye",
+      "reviewer": "Anonymous",
+      "rating": 5,
+      "text": "Hygienist Alexis is absolutely amazing — she is such a warm, funny, and comforting human. My cleaning was thorough and I actually looked forward to coming in.",
+      "tags": ["hygienist", "staff", "fear-overcome", "comfort"]
+    },
+    {
+      "source": "Google / Birdeye",
+      "reviewer": "Anonymous",
+      "rating": 5,
+      "text": "Hygienist Ariana was super efficient yet very considerate during my routine cleaning. She explained everything step by step as she worked.",
+      "tags": ["hygienist", "communication", "staff", "thorough"]
+    },
+    {
+      "source": "Google / Birdeye",
+      "reviewer": "Anonymous",
+      "rating": 5,
+      "text": "Ariana handled my anxiety surrounding a deep cleaning so well. She did an excellent job and made the whole process easy.",
+      "tags": ["fear-overcome", "anxiety", "hygienist", "outcome"]
+    },
+    {
+      "source": "Google / Birdeye",
+      "reviewer": "Anonymous",
+      "rating": 5,
+      "text": "The hygienists are gentle and fast. Dr. Weber is always warm and explains everything clearly. This is the only dentist I actually look forward to visiting.",
+      "tags": ["fear-overcome", "doctor", "hygienist", "trust"]
+    },
+    {
+      "source": "Google / Birdeye",
+      "reviewer": "Anonymous",
+      "rating": 5,
+      "text": "The team was incredibly gentle, patient, and kept me informed every step of the way during my procedure.",
+      "tags": ["fear-overcome", "communication", "trust", "staff"]
+    },
+    {
+      "source": "Google / Birdeye",
+      "reviewer": "Anonymous",
+      "rating": 5,
+      "text": "I love this office. Patients are welcomed by name with a smile. The team is highly knowledgeable and confident, but approaches everything with compassion and care.",
+      "tags": ["trust", "staff", "warmth", "experience"]
+    },
+    {
+      "source": "Google / Birdeye",
+      "reviewer": "Anonymous",
+      "rating": 5,
+      "text": "Been going to DSCP for over a year now. They are quick to respond in emergencies and have helped remove chronic pain I was dealing with. I will never go anywhere else.",
+      "tags": ["loyalty", "emergency", "outcome", "trust"]
+    }
+  ],
+  "hero_candidates": [
+    "Dr. Blake and Dr. Hunter are seriously the nicest father/son duo — professional, kind, and always take the time to offer sound, straightforward advice.",
+    "Simply put — they do everything right. Customer service, quality of care, scheduling, location, atmosphere. 10 out of 10 on every front.",
+    "They make you feel like family and walk you step by step through the procedure.",
+    "This is the only dentist I actually look forward to visiting.",
+    "Patients are welcomed by name with a smile."
+  ],
+  "trust_phrases": [
+    "5.0 Stars — 550+ Google Reviews",
+    "Father & Son Dentists with 40+ Years Combined Experience",
+    "Located in Stanley Marketplace, Aurora CO",
+    "Trusted by Central Park families since opening",
+    "Same-day emergency appointments available",
+    "State-of-the-art technology — no uncomfortable molds",
+    "Open Monday–Thursday 7 AM – 3 PM",
+    "Accepting new patients",
+    "Invisalign Certified Provider",
+    "Voted best dental practice by local patients"
+  ]
+}

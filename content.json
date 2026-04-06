@@ -1,0 +1,231 @@
+{
+  "meta": {
+    "title": "Dental Solutions of Central Park | Aurora, CO Dentist",
+    "description": "Aurora's favorite father-son dental practice. Dr. Blake & Dr. Hunter Weber serve Central Park families with general, cosmetic, and emergency dentistry. 5.0 stars, 551+ reviews.",
+    "og_title": "Dental Solutions of Central Park | Aurora, CO",
+    "og_description": "The only dentist you'll actually look forward to visiting. Father-son care, 5.0 stars, and same-day emergency appointments in Stanley Marketplace, Aurora, CO.",
+    "og_image_alt": "Dr. Blake Weber and Dr. Hunter Weber, father and son dentists at Dental Solutions of Central Park in Aurora, CO"
+  },
+  "nav": {
+    "logo_alt": "Dental Solutions of Central Park logo",
+    "links": [
+      { "label": "Services", "href": "#services" },
+      { "label": "Meet the Doctors", "href": "#about" },
+      { "label": "Reviews", "href": "#reviews" },
+      { "label": "Location", "href": "#location" }
+    ],
+    "cta_label": "Call (303) 399-1488",
+    "cta_href": "tel:3033991488"
+  },
+  "hero": {
+    "headline": "The Only Dentist You'll Actually Look Forward to Visiting",
+    "subheadline": "Dr. Blake and Dr. Hunter Weber have been caring for Central Park families for over 30 years. No judgment, no rush, no anxiety. Just honest, gentle dentistry from people who genuinely know your name.",
+    "cta_primary": "Book Your Visit",
+    "cta_primary_href": "#location",
+    "cta_secondary": "Call (303) 399-1488",
+    "cta_secondary_href": "tel:3033991488",
+    "image_alt": "Bright, welcoming dental office at Dental Solutions of Central Park inside Stanley Marketplace, Aurora CO"
+  },
+  "stats": [
+    { "number": "5.0★", "label": "Google Rating" },
+    { "number": "551+", "label": "Patient Reviews" },
+    { "number": "30+", "label": "Years of Care" },
+    { "number": "Father & Son", "label": "Dr. Blake & Dr. Hunter Weber" }
+  ],
+  "services": [
+    {
+      "title": "Routine Cleanings & Exams",
+      "description": "Your twice-yearly visit is about more than clean teeth. Our hygienists take the time to get to know your mouth, catch small issues before they become big ones, and make sure you leave feeling great. You'll be in and out in under an hour, without feeling rushed.",
+      "icon": "tooth",
+      "image_alt": "Dental hygienist performing a thorough teeth cleaning for a patient in a modern dental chair"
+    },
+    {
+      "title": "Invisalign Clear Aligners",
+      "description": "Straighter teeth don't have to mean a mouth full of metal. Dr. Hunter is a certified Invisalign provider who'll walk you through the full treatment plan before you commit to a single thing. Most patients see results in 12 to 18 months.",
+      "icon": "aligners",
+      "image_alt": "Close-up of clear Invisalign aligners being held up by a patient smiling in a dental office"
+    },
+    {
+      "title": "Dental Implants",
+      "description": "A missing tooth affects more than your smile. Implants restore your ability to eat, speak, and feel confident without the daily hassle of removable prosthetics. We use digital scanning so there are no uncomfortable molds involved.",
+      "icon": "implant",
+      "image_alt": "Dentist reviewing a digital scan of a patient's mouth for dental implant planning"
+    },
+    {
+      "title": "Crowns & Bridges",
+      "description": "Whether you need to protect a damaged tooth or fill a gap left by a missing one, crowns and bridges are built to look and feel completely natural. Dr. Blake and Dr. Hunter have placed thousands of them over the years.",
+      "icon": "crown",
+      "image_alt": "Dental crown being carefully placed on a patient's tooth by a dentist in a clean, well-lit operatory"
+    },
+    {
+      "title": "Professional Teeth Whitening",
+      "description": "Over-the-counter strips only go so far. Our professional whitening treatments are faster, more effective, and supervised by your dentist so you get results without sensitivity surprises. Most patients see a noticeable difference after a single session.",
+      "icon": "whitening",
+      "image_alt": "Before and after comparison of a patient's smile showing dramatic teeth whitening results"
+    },
+    {
+      "title": "Porcelain Veneers",
+      "description": "If chipped, stained, or uneven teeth have made you self-conscious about smiling, veneers might be the answer. Thin, custom-crafted, and designed to match your natural teeth, they're one of the most transformative things we offer.",
+      "icon": "veneer",
+      "image_alt": "Dentist holding a thin porcelain veneer up to a patient's tooth for size and color matching"
+    },
+    {
+      "title": "Root Canal Therapy",
+      "description": "Root canals have a reputation they don't deserve. Modern techniques and the right level of care make the procedure much more comfortable than most patients expect. Dr. Blake and Dr. Hunter will explain every step before anything happens.",
+      "icon": "root-canal",
+      "image_alt": "Dentist calmly explaining a procedure to a relaxed patient seated in a dental chair"
+    },
+    {
+      "title": "Emergency Same-Day Appointments",
+      "description": "A cracked tooth, sudden pain, or a lost filling shouldn't mean waiting three weeks to be seen. We keep time reserved for same-day emergencies and respond quickly when you need us most. Call us and we'll get you in.",
+      "icon": "emergency",
+      "image_alt": "Front desk staff at Dental Solutions of Central Park helping a patient schedule an urgent same-day appointment"
+    },
+    {
+      "title": "Nightguards & Sleep Apnea Appliances",
+      "description": "Grinding your teeth at night wears them down faster than almost anything else. A custom nightguard is simple, comfortable, and protects thousands of dollars worth of dental work. We also fit custom appliances for mild to moderate sleep apnea.",
+      "icon": "guard",
+      "image_alt": "Custom dental nightguard displayed on a clean surface next to a dental model"
+    },
+    {
+      "title": "Botox & Dermal Fillers",
+      "description": "Yes, we offer it. Dental offices are one of the best places to get Botox and fillers because nobody understands facial anatomy better than a dentist. Ask us about it at your next visit.",
+      "icon": "sparkle",
+      "image_alt": "Dentist in a clinical setting consulting with a patient about facial aesthetic treatment options"
+    }
+  ],
+  "about": {
+    "section_headline": "Meet Dr. Blake & Dr. Hunter Weber",
+    "section_subheadline": "Two generations of care under one roof. One goal: make your dental visits something you actually don't dread.",
+    "doctors": [
+      {
+        "name": "Dr. Blake Weber, DDS",
+        "credentials": "Doctor of Dental Surgery, University of Tennessee",
+        "bio": "Dr. Blake Weber has spent more than 30 years building a practice centered on one thing: people. He earned his DDS from the University of Tennessee College of Dentistry and his BS in Zoology from the University of Arkansas, but what patients remember is how he makes them feel at ease before any instrument is picked up. Dr. Blake's focus on cosmetic and restorative dentistry means he has helped thousands of patients in the Central Park and Aurora area get back smiles they feel proud of. Patients describe him as communicative, gentle, and the kind of dentist who actually listens.",
+        "image_alt": "Dr. Blake Weber DDS, dentist at Dental Solutions of Central Park, Aurora CO"
+      },
+      {
+        "name": "Dr. Hunter Weber, DDS",
+        "credentials": "Doctor of Dental Surgery, University of Tennessee Memphis",
+        "bio": "Dr. Hunter Weber grew up watching his father treat patients with patience and care, and decided early on that dentistry was his path too. He earned his DDS from the University of Tennessee in Memphis and his BS in Biology from the University of Alabama at Birmingham. Dr. Hunter specializes in restorative dentistry, Invisalign clear aligner therapy, and full mouth reconstruction. He has a particular gift for connecting with patients who come in nervous, and a reputation for walking you through every step of a procedure before it begins.",
+        "image_alt": "Dr. Hunter Weber DDS, dentist at Dental Solutions of Central Park, Aurora CO"
+      }
+    ],
+    "team_image_alt": "The full team at Dental Solutions of Central Park, Aurora CO, including hygienists, dental assistants, and front desk staff"
+  },
+  "reviews": [
+    {
+      "quote": "Dr. Blake and Dr. Hunter are seriously the nicest father/son duo — professional, kind, and always take the time to offer sound, straightforward advice. The entire team here is friendly, reliable, and quick.",
+      "reviewer": "Anonymous",
+      "rating": 5,
+      "source": "Google"
+    },
+    {
+      "quote": "Simply put — they do everything right. Customer service, quality of care, scheduling, location, atmosphere. 10 out of 10 on every front.",
+      "reviewer": "Justin A.",
+      "rating": 5,
+      "source": "Google"
+    },
+    {
+      "quote": "The hygienists are gentle and fast. Dr. Weber is always warm and explains everything clearly. This is the only dentist I actually look forward to visiting.",
+      "reviewer": "Anonymous",
+      "rating": 5,
+      "source": "Google"
+    },
+    {
+      "quote": "Hygienist Alexis is absolutely amazing — she is such a warm, funny, and comforting human. My cleaning was thorough and I actually looked forward to coming in.",
+      "reviewer": "Anonymous",
+      "rating": 5,
+      "source": "Google"
+    },
+    {
+      "quote": "Dr. Hunter and Blake Weber are wonderful dentists and exceptionally knowledgeable about the work they do. They make you feel like family and walk you step by step through the procedure.",
+      "reviewer": "Anonymous",
+      "rating": 5,
+      "source": "Google"
+    },
+    {
+      "quote": "Our family has been coming here for several years, and we consistently have an excellent experience. The staff is warm, welcoming, and genuinely attentive.",
+      "reviewer": "Sierra Thomas",
+      "rating": 5,
+      "source": "Google"
+    },
+    {
+      "quote": "This dental group is very warm and caring for their clients. I took my 91-year-old mom here — they decorated for her birthday!",
+      "reviewer": "Melissa Godes",
+      "rating": 5,
+      "source": "Google"
+    },
+    {
+      "quote": "As a dental student myself, the way both of these dentists and their staff treat patients is truly top notch. Thorough, skilled, and the bedside manner is exceptional.",
+      "reviewer": "Kaylan Wait",
+      "rating": 5,
+      "source": "Google"
+    }
+  ],
+  "why_us": {
+    "headline": "Why Central Park Families Choose Us",
+    "items": [
+      {
+        "title": "Early Hours, No Excuses Needed",
+        "body": "We open at 7:00 AM Monday through Thursday so you can get in before work, before school drop-off, or before anything else gets in the way. Taking care of your teeth shouldn't require taking a day off.",
+        "icon": "calendar"
+      },
+      {
+        "title": "Judgment-Free from Day One",
+        "body": "Whether you haven't been to the dentist in two years or ten, you'll never hear a lecture. We start where you are, explain what we see, and put a plan together that actually works for your life.",
+        "icon": "shield"
+      },
+      {
+        "title": "Right Inside Stanley Marketplace",
+        "body": "Suite 224, upstairs in Stanley Marketplace. Grab a coffee before your appointment, pick up groceries after. We're part of your neighborhood, not a detour out of it.",
+        "icon": "map"
+      },
+      {
+        "title": "A Practice That Knows Your Name",
+        "body": "Our team greets you when you walk in, remembers details about your family, and treats every visit like it matters. Because to us, it does. Patients don't feel like a chart number here.",
+        "icon": "heart"
+      }
+    ]
+  },
+  "financing": {
+    "headline": "Care Should Never Be Out of Reach",
+    "body": "We believe everyone deserves a healthy smile, regardless of budget or insurance situation. Our team will walk you through your coverage, explain what's covered before any treatment begins, and connect you with flexible financing options so cost never has to be a reason to put off care.",
+    "cta": "Ask About Financing",
+    "cta_href": "tel:3033991488"
+  },
+  "location": {
+    "headline": "Find Us at Stanley Marketplace",
+    "address": "2501 Dallas Street, Suite 224",
+    "city_state_zip": "Aurora, CO 80010",
+    "phone": "(303) 399-1488",
+    "phone_href": "tel:3033991488",
+    "hours": [
+      { "day": "Monday", "hours": "7:00 AM – 3:00 PM" },
+      { "day": "Tuesday", "hours": "7:00 AM – 3:00 PM" },
+      { "day": "Wednesday", "hours": "7:00 AM – 3:00 PM" },
+      { "day": "Thursday", "hours": "7:00 AM – 3:00 PM" },
+      { "day": "Friday", "hours": "Closed" },
+      { "day": "Saturday", "hours": "Closed" },
+      { "day": "Sunday", "hours": "Closed" }
+    ],
+    "directions_url": "https://www.google.com/maps/dir/?api=1&destination=2501+Dallas+Street+Suite+224+Aurora+CO+80010"
+  },
+  "footer": {
+    "tagline": "Warm, honest dental care for Central Park families. Two doctors, one team, zero judgment.",
+    "social": {
+      "facebook": "https://www.facebook.com/dentalsolutionsofcentralpark/",
+      "instagram": "https://www.instagram.com/dentalsolutionsofcp/",
+      "yelp": "https://www.yelp.com/biz/dental-solutions-of-central-park-aurora"
+    },
+    "hipaa_notice": "Your health information is protected. We are committed to the privacy and security of your personal and dental health records.",
+    "copyright": "© 2026 Dental Solutions of Central Park. All rights reserved.",
+    "nule_credit": "Built by nule.io"
+  },
+  "contact_form": {
+    "headline": "Request an Appointment",
+    "subheadline": "Fill out the form below and our team will reach out to confirm your visit. Prefer to talk? Call us at (303) 399-1488.",
+    "fields": ["First Name", "Last Name", "Phone", "Email", "Preferred Date", "Message"],
+    "submit_label": "Request Appointment"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "assets": {
+    "hero": {
+      "local": "assets/hero.jpg",
+      "alt": "Dental Solutions of Central Park practice interior, Aurora CO",
+      "status": "downloaded",
+      "source": "dentalsolutionsofcp.com",
+      "size_bytes": 401707
+    },
+    "about_team": {
+      "local": "assets/about-team.jpg",
+      "alt": "The team at Dental Solutions of Central Park",
+      "status": "downloaded",
+      "source": "dentalsolutionsofcp.com",
+      "size_bytes": 383200
+    },
+    "office": {
+      "local": "assets/office.png",
+      "alt": "Inside Dental Solutions of Central Park, Stanley Marketplace Aurora",
+      "status": "downloaded",
+      "source": "dentalsolutionsofcp.com",
+      "size_bytes": 939455
+    },
+    "dr_blake": {
+      "local": "assets/dr-blake-1.jpg",
+      "alt": "Dr. Blake Weber DDS, Dental Solutions of Central Park, Aurora CO",
+      "status": "downloaded",
+      "source": "dentalsolutionsofcp.com",
+      "size_bytes": 65654
+    },
+    "dr_blake_2": {
+      "local": "assets/dr-blake-2.jpg",
+      "alt": "Dr. Blake Weber DDS, Dental Solutions of Central Park, Aurora CO",
+      "status": "downloaded",
+      "source": "dentalsolutionsofcp.com",
+      "size_bytes": 85447
+    },
+    "dr_hunter": {
+      "local": "assets/dr-hunter.png",
+      "alt": "Dr. Hunter Weber DDS, Dental Solutions of Central Park, Aurora CO",
+      "status": "downloaded",
+      "source": "dentalsolutionsofcp.com",
+      "size_bytes": 229474
+    },
+    "lifestyle_1": {
+      "local": "assets/lifestyle-1.jpg",
+      "alt": "Patient experience at Dental Solutions of Central Park, Aurora CO",
+      "status": "downloaded",
+      "source": "dentalsolutionsofcp.com",
+      "size_bytes": 462990
+    },
+    "lifestyle_2": {
+      "local": "assets/lifestyle-2.jpg",
+      "alt": "Dental care at Dental Solutions of Central Park, Aurora CO",
+      "status": "downloaded",
+      "source": "dentalsolutionsofcp.com",
+      "size_bytes": 686222
+    },
+    "logo": {
+      "local": "assets/logo.png",
+      "alt": "Dental Solutions of Central Park logo",
+      "status": "downloaded",
+      "source": "dentalsolutionsofcp.com",
+      "size_bytes": 8633
+    },
+    "service_preventive": {
+      "local": "assets/service-preventive.jpg",
+      "alt": "Preventive dental care at Dental Solutions of Central Park",
+      "status": "downloaded",
+      "source": "unsplash",
+      "original_url": "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=600&q=80",
+      "size_bytes": 41236
+    },
+    "service_cosmetic": {
+      "local": "assets/service-cosmetic.jpg",
+      "alt": "Cosmetic dentistry and teeth whitening in Aurora CO",
+      "status": "downloaded",
+      "source": "unsplash",
+      "original_url": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=600&q=80",
+      "size_bytes": 40176
+    },
+    "service_implants": {
+      "local": "assets/service-implants.jpg",
+      "alt": "Dental implants at Dental Solutions of Central Park",
+      "status": "downloaded",
+      "source": "unsplash",
+      "original_url": "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=600&q=80",
+      "size_bytes": 35411
+    },
+    "service_restorative": {
+      "local": "assets/service-restorative.jpg",
+      "alt": "Dental crowns and restorative dentistry in Aurora CO",
+      "status": "downloaded",
+      "source": "unsplash",
+      "original_url": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=600&q=80",
+      "size_bytes": 41698
+    },
+    "service_emergency": {
+      "local": "assets/service-emergency.jpg",
+      "alt": "Emergency dentistry same-day appointments Aurora CO",
+      "status": "downloaded",
+      "source": "unsplash",
+      "original_url": "https://images.unsplash.com/photo-1584515933487-779824d29309?w=600&q=80",
+      "size_bytes": 38536
+    },
+    "service_sedation": {
+      "local": "assets/service-sedation.jpg",
+      "alt": "Sedation dentistry nitrous oxide Aurora CO",
+      "status": "downloaded",
+      "source": "unsplash",
+      "original_url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&q=80",
+      "size_bytes": 31285
+    }
+  },
+  "maps": {
+    "embed_url": "https://maps.google.com/maps?cid=7388408173480301176&output=embed",
+    "directions_url": "https://www.google.com/maps/dir/?api=1&destination=2501+Dallas+Street+Suite+224+Aurora+CO+80010",
+    "place_cid": "7388408173480301176"
+  },
+  "social": {
+    "facebook": "https://www.facebook.com/dentalsolutionsofcentralpark/",
+    "instagram": "https://www.instagram.com/dentalsolutionsofcp/",
+    "yelp": "https://www.yelp.com/biz/dental-solutions-of-central-park-aurora"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "business_name": "Dental Solutions of Central Park",
+  "slug": "dental-solutions-of-central-park",
+  "website_url": "https://dentalsolutionsofcp.com/",
+  "phone": "303-399-1488",
+  "address": "2501 Dallas Street, Suite 224, Aurora, CO 80010",
+  "location_note": "Located upstairs in Stanley Marketplace",
+  "hours": {
+    "monday": "7:00 AM – 3:00 PM",
+    "tuesday": "7:00 AM – 3:00 PM",
+    "wednesday": "7:00 AM – 3:00 PM",
+    "thursday": "7:00 AM – 3:00 PM",
+    "friday": "Closed",
+    "saturday": "Closed",
+    "sunday": "Closed"
+  },
+  "niche": "dental",
+  "category": "General & Cosmetic Dentistry",
+  "doctors": [
+    {
+      "name": "Dr. Blake Weber",
+      "credentials": "DDS",
+      "school": "University of Tennessee College of Dentistry",
+      "undergrad": "University of Arkansas, BS Zoology",
+      "note": "30+ years in private practice, special interests: cosmetic and restorative dentistry"
+    },
+    {
+      "name": "Dr. Hunter Weber",
+      "credentials": "DDS",
+      "school": "University of Tennessee, Memphis",
+      "undergrad": "University of Alabama at Birmingham, BS Biology",
+      "note": "Son of Dr. Blake Weber, special interests: restorative dentistry, Invisalign, full mouth reconstruction"
+    }
+  ],
+  "services": [
+    "Routine Cleanings & Exams",
+    "Teeth Whitening",
+    "Invisalign Clear Aligners",
+    "Dental Implants",
+    "Dental Crowns & Bridges",
+    "Root Canal Therapy",
+    "Cosmetic Veneers",
+    "Dental Sedation (Nitrous Oxide)",
+    "Emergency Same-Day Appointments",
+    "Digital X-Rays",
+    "Nightguards & Sleep Apnea Appliances",
+    "Botox & Dermal Fillers"
+  ],
+  "rating": 5,
+  "review_count": 0,
+  "service_areas": ["Central Park", "Park Hill", "Aurora", "Lowry"],
+  "differentiators": [
+    "Father-son practice — Dr. Blake & Dr. Hunter Weber",
+    "Same-day emergency and post-diagnosis treatment",
+    "Digital X-rays (up to 90% less radiation)",
+    "Nitrous oxide sedation available",
+    "Located in Stanley Marketplace",
+    "Family block appointments",
+    "Judgment-free, relationship-based care",
+    "Botox and dermal fillers offered"
+  ],
+  "staff": [
+    "Ivona (EDDA)",
+    "Alexis (Dental Hygienist)",
+    "Angela (Dental Assistant)",
+    "Geri (Front Desk — 17+ years dental experience)",
+    "Arianna (Dental Hygienist)",
+    "Ashlin (Front Desk)",
+    "Heather (Hygienist)"
+  ],
+  "photos": {
+    "team": "https://dentalsolutionsofcp.com/wp-content/uploads/2024/06/Team-scaled.jpg",
+    "office": "https://dentalsolutionsofcp.com/wp-content/uploads/2025/01/Office-Photos.png",
+    "services_hero": "https://dentalsolutionsofcp.com/wp-content/uploads/2025/01/Services.png",
+    "dr_blake_1": "https://dentalsolutionsofcp.com/wp-content/uploads/2022/11/DSC04855-Eric-Briggs.jpg",
+    "dr_blake_2": "https://dentalsolutionsofcp.com/wp-content/uploads/2022/11/DSC04871-Eric-Briggs.jpg",
+    "dr_blake_3": "https://dentalsolutionsofcp.com/wp-content/uploads/2022/11/DSC04880-Eric-Briggs.jpg",
+    "dr_blake_4": "https://dentalsolutionsofcp.com/wp-content/uploads/2022/12/DSC04879-Eric-Briggs-1.jpg",
+    "dr_hunter": "https://dentalsolutionsofcp.com/wp-content/uploads/2025/01/Dr.-Hunter-Weber.png",
+    "lifestyle_1": "https://dentalsolutionsofcp.com/wp-content/uploads/2025/01/011-From-the-Hip-Photo-scaled.jpg",
+    "lifestyle_2": "https://dentalsolutionsofcp.com/wp-content/uploads/2025/01/IMG_9265-scaled.jpg",
+    "lifestyle_3": "https://dentalsolutionsofcp.com/wp-content/uploads/2025/01/IMG_3993-scaled.jpg",
+    "lifestyle_4": "https://dentalsolutionsofcp.com/wp-content/uploads/2025/01/IMG_3976-scaled.jpg",
+    "lifestyle_5": "https://dentalsolutionsofcp.com/wp-content/uploads/2025/01/IMG-6560-scaled.jpg",
+    "logo": "https://dentalsolutionsofcp.com/wp-content/themes/practice/img/logo.png"
+  },
+  "social": {
+    "website": "https://dentalsolutionsofcp.com/",
+    "facebook": "https://www.facebook.com/dentalsolutionsofcentralpark/",
+    "instagram": "https://www.instagram.com/dentalsolutionsofcp/",
+    "yelp": "https://www.yelp.com/biz/dental-solutions-of-central-park-aurora",
+    "google_maps": "https://www.google.com/maps/search/?api=1&query=Dental+Solutions+of+Central+Park&ludocid=7388408173480301176"
+  },
+  "subdomain": "dental-solutions-of-central-park",
+  "source": "nule-preview",
+  "generated_at": "2026-04-06T19:33:41.521Z",
+  "enriched_at": "2026-04-06"
+}

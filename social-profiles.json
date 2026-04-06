@@ -1,0 +1,36 @@
+{
+  "business_name": "Dental Solutions of Central Park",
+  "slug": "dental-solutions-of-central-park",
+  "address": "2501 Dallas Street, Suite 224, Aurora, CO 80010",
+  "phone": "303-399-1488",
+  "website": "https://dentalsolutionsofcp.com/",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Dental+Solutions+of+Central+Park&ludocid=7388408173480301176",
+  "google_place_id": null,
+  "google_place_cid": "7388408173480301176",
+  "google_short_link": "https://g.page/dental-solutions-of-central-park?share",
+  "facebook": "https://www.facebook.com/dentalsolutionsofcentralpark/",
+  "instagram": "https://www.instagram.com/dentalsolutionsofcp/",
+  "yelp": "https://www.yelp.com/biz/dental-solutions-of-central-park-aurora",
+  "healthgrades": null,
+  "zocdoc": null,
+  "other": [
+    {
+      "platform": "Nextdoor",
+      "url": "https://nextdoor.com/pages/dental-solutions-of-central-park-aurora-co/"
+    },
+    {
+      "platform": "CareCredit",
+      "url": "https://www.carecredit.com/doctor-locator/aurora-co/dental-solutions-of-central-park-677sdc/"
+    },
+    {
+      "platform": "Birdeye",
+      "url": "https://birdeye.com/dental-solutions-of-central-park-165939123982893"
+    },
+    {
+      "platform": "Stanley Marketplace",
+      "url": "https://www.stanleymarketplace.com/vendors/dentalsolutions"
+    }
+  ],
+  "logo_url": "https://dentalsolutionsofcp.com/wp-content/themes/practice/img/logo.png",
+  "notes": "Website verified via WebFetch — confirmed address 2501 Dallas Street Suite 224 Aurora CO 80010. Facebook page confirmed as 'Dental Solutions of Central Park | Aurora CO'. Instagram handle @dentalsolutionsofcp confirmed (263 followers, 58 posts as of search). Yelp listing confirmed via search result title and address. Google Place CID 7388408173480301176 extracted from g.page short link redirect (ludocid param). No Healthgrades listing found in any search. No ZocDoc listing found in any search (both returned 403 on direct fetch). Google Place ID (maps API format starting with ChIJ) not resolved — only CID available. Healthgrades and ZocDoc should be confirmed manually if needed. Logo URL retrieved from live website."
+}
