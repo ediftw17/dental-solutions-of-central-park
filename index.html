@@ -281,9 +281,12 @@ section { position: relative; }
 .trust-divider { width: 1px; height: 24px; background: var(--line); flex-shrink: 0; }
 
 @media (max-width: 900px) {
-  .hero::before { background-position: center center; }
-  .hero::after { background: linear-gradient(180deg, rgba(45,52,54,0.8) 0%, rgba(45,52,54,0.5) 50%, rgba(45,52,54,0.75) 100%); }
+  .hero { padding: clamp(80px, 10vw, 100px) 0 clamp(40px, 5vw, 60px); min-height: auto; }
+  .hero::before { background-position: 70% center; }
+  .hero::after { background: rgba(45,52,54,0.82); }
   .hero-content { max-width: 100%; }
+  .hero h1 { font-size: clamp(1.75rem, 7vw, 2.25rem); }
+  .hero-sub { font-size: 0.95rem; }
 }
 @media (max-width: 700px) {
   .trust-bar-inner { gap: 0.75rem; }
