@@ -281,9 +281,9 @@ section { position: relative; }
 .trust-divider { width: 1px; height: 24px; background: var(--line); flex-shrink: 0; }
 
 @media (max-width: 900px) {
-  .hero { padding: clamp(80px, 10vw, 100px) 0 clamp(40px, 5vw, 60px); min-height: auto; }
-  .hero::before { background-position: 70% center; }
-  .hero::after { background: rgba(45,52,54,0.82); }
+  .hero { padding: clamp(80px, 10vw, 100px) 0 clamp(40px, 5vw, 60px); min-height: 100svh; }
+  .hero::before { background-position: center center; background-size: cover; }
+  .hero::after { background: rgba(45,52,54,0.78); }
   .hero-content { max-width: 100%; }
   .hero h1 { font-size: clamp(1.75rem, 7vw, 2.25rem); }
   .hero-sub { font-size: 0.95rem; }
@@ -604,7 +604,7 @@ section { position: relative; }
   <div class="wrap">
     <div class="hero-content">
       <p class="hero-eyebrow">Father &amp; Son Dentists in Aurora, CO</p>
-      <h1 class="display">The Only Dentist You'll <em>Actually</em> Look Forward to Visiting</h1>
+      <h1 class="display">Your Smile.<br><em>Our Family.</em></h1>
       <p class="hero-sub">Dr. Blake and Dr. Hunter Weber have been caring for Central Park families for over 30 years. No judgment, no rush, no anxiety. Just honest, gentle dentistry from people who genuinely know your name.</p>
       <div class="hero-btns">
         <a href="#contact" class="btn btn-primary">Book Your Visit</a>
