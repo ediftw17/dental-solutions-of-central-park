@@ -287,7 +287,7 @@ p.desktop-only { display: block; }
 .trust-divider { width: 1px; height: 20px; background: rgba(255,255,255,0.2); flex-shrink: 0; }
 
 @media (max-width: 900px) {
-  .hero::before { background-position: center top; background-size: 100% auto; }
+  .hero::before { background-image: url('assets/hero-mobile.jpg'); background-position: center top; background-size: cover; }
   .hero::after { background: linear-gradient(180deg, rgba(45,52,54,0.05) 0%, rgba(45,52,54,0.2) 25%, rgba(45,52,54,0.8) 55%, rgba(45,52,54,0.95) 80%); }
   .hero-content { max-width: 100%; }
   .hero h1 { font-size: clamp(1.75rem, 7vw, 2.25rem); }
