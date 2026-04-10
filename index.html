@@ -205,7 +205,7 @@ section { position: relative; }
   background: var(--charcoal);
   display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1.75rem;
   opacity: 0; pointer-events: none; transition: opacity var(--t-med) var(--ease);
-  padding: 0;
+  padding: 0; text-align: center;
 }
 .mobile-nav.open { opacity: 1; pointer-events: auto; }
 .mobile-nav a {
@@ -227,7 +227,7 @@ section { position: relative; }
   .nav-links, .nav-cta .btn-primary { display: none; }
   .hamburger { display: flex; }
   .nav-cta .nav-phone { display: none; }
-  .nav-inner { padding-right: 0; }
+  .hero-content { margin-left: 0; margin-right: 0; }
 }
 
 /* Sticky call button — mobile only */
@@ -629,7 +629,7 @@ p.desktop-only { display: block; }
 /* ============================================
    PRACTICE PHOTO GALLERY
    ============================================ */
-.gallery-section { background: var(--warm-white); }
+.gallery-section { background: var(--warm-white); overflow: hidden; }
 .gallery-scroll {
   display: flex; gap: 1rem; overflow-x: auto; scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch; padding-bottom: 1rem;
