@@ -238,8 +238,8 @@ section { position: relative; }
 .hero::after {
   content: ''; position: absolute; inset: 0; z-index: 1;
   background:
-    linear-gradient(180deg, rgba(45,52,54,0.05) 0%, rgba(45,52,54,0.15) 30%, rgba(45,52,54,0.7) 60%, rgba(45,52,54,0.92) 85%),
-    linear-gradient(90deg, rgba(45,52,54,0.5) 0%, rgba(45,52,54,0.1) 60%);
+    linear-gradient(180deg, rgba(45,52,54,0) 0%, rgba(45,52,54,0) 35%, rgba(45,52,54,0.6) 55%, rgba(45,52,54,0.92) 75%),
+    linear-gradient(90deg, rgba(45,52,54,0.35) 0%, rgba(45,52,54,0) 50%);
 }
 .hero .wrap { position: relative; z-index: 2; }
 .hero-content { max-width: 620px; padding-bottom: 2rem; }
@@ -571,7 +571,13 @@ p.desktop-only { display: block; }
    BEFORE/AFTER GALLERY
    ============================================ */
 .ba-section { background: var(--cream); }
-.ba-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; }
+.ba-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }
+.ba-single { position: relative; overflow: hidden; border-radius: var(--radius); }
+.ba-single img { width: 100%; display: block; border-radius: var(--radius); }
+.ba-single .ba-labels { position: absolute; bottom: 0; left: 0; right: 0; display: flex; }
+.ba-single .ba-labels span { flex: 1; text-align: center; padding: 0.5rem; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; }
+.ba-single .ba-labels .lbl-before { background: rgba(45,52,54,0.75); color: var(--white); }
+.ba-single .ba-labels .lbl-after { background: rgba(91,190,196,0.85); color: var(--white); }
 .ba-pair {
   background: var(--white); border-radius: var(--radius-lg); overflow: hidden;
   border: 1px solid var(--line-soft); transition: all var(--t-med) var(--ease);
@@ -803,33 +809,25 @@ p.desktop-only { display: block; }
       <p>Every smile tells a story. Here are a few transformations from real patients at our practice.</p>
     </div>
     <div class="ba-grid">
-      <div class="ba-pair fade-in">
-        <div class="ba-images">
-          <div class="ba-img"><img src="assets/gallery/gallery-22.jpg" alt="Before full mouth rehabilitation" loading="lazy" /><span class="ba-label">Before</span></div>
-          <div class="ba-img"><img src="assets/gallery/gallery-23.jpg" alt="After full mouth rehabilitation" loading="lazy" /><span class="ba-label ba-label--after">After</span></div>
-        </div>
+      <div class="ba-single fade-in">
+        <img src="assets/gallery/gallery-22.jpg" alt="Full mouth rehabilitation before and after" loading="lazy" />
+        <div class="ba-labels"><span class="lbl-before">Before</span><span class="lbl-after">After</span></div>
         <div class="ba-caption"><p>Full Mouth Rehabilitation</p></div>
       </div>
-      <div class="ba-pair fade-in fade-in-delay-1">
-        <div class="ba-images">
-          <div class="ba-img"><img src="assets/gallery/gallery-24.jpg" alt="Before professional whitening" loading="lazy" /><span class="ba-label">Before</span></div>
-          <div class="ba-img"><img src="assets/gallery/gallery-25.jpg" alt="After professional whitening" loading="lazy" /><span class="ba-label ba-label--after">After</span></div>
-        </div>
+      <div class="ba-single fade-in fade-in-delay-1">
+        <img src="assets/gallery/gallery-23.jpg" alt="Veneers and crowns before and after" loading="lazy" />
+        <div class="ba-labels"><span class="lbl-before">Before</span><span class="lbl-after">After</span></div>
+        <div class="ba-caption"><p>Veneers &amp; Crowns</p></div>
+      </div>
+      <div class="ba-single fade-in">
+        <img src="assets/gallery/gallery-24.jpg" alt="Professional whitening before and after" loading="lazy" />
+        <div class="ba-labels"><span class="lbl-before">Before</span><span class="lbl-after">After</span></div>
         <div class="ba-caption"><p>Professional Whitening</p></div>
       </div>
-      <div class="ba-pair fade-in">
-        <div class="ba-images">
-          <div class="ba-img"><img src="assets/gallery/gallery-30.jpg" alt="Before Invisalign treatment" loading="lazy" /><span class="ba-label">Before</span></div>
-          <div class="ba-img"><img src="assets/gallery/gallery-31.jpg" alt="After Invisalign treatment" loading="lazy" /><span class="ba-label ba-label--after">After</span></div>
-        </div>
+      <div class="ba-single fade-in fade-in-delay-1">
+        <img src="assets/gallery/gallery-30.jpg" alt="Invisalign before and after" loading="lazy" />
+        <div class="ba-labels"><span class="lbl-before">Before</span><span class="lbl-after">After</span></div>
         <div class="ba-caption"><p>Invisalign</p></div>
-      </div>
-      <div class="ba-pair fade-in fade-in-delay-1">
-        <div class="ba-images">
-          <div class="ba-img"><img src="assets/gallery/gallery-26.jpg" alt="Before whitening case 2" loading="lazy" /><span class="ba-label">Before</span></div>
-          <div class="ba-img"><img src="assets/gallery/gallery-27.jpg" alt="After whitening case 2" loading="lazy" /><span class="ba-label ba-label--after">After</span></div>
-        </div>
-        <div class="ba-caption"><p>Whitening</p></div>
       </div>
     </div>
   </div>
