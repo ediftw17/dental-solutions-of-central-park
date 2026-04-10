@@ -224,10 +224,10 @@ section { position: relative; }
 /* ============================================
    HERO
    ============================================ */
-/* HERO — full bg image, doctors positioned right via background-position */
+/* HERO — full bg, content centered-left at bottom, trust bar inside */
 .hero {
   position: relative; min-height: 100svh; overflow: hidden;
-  padding: clamp(120px, 14vw, 170px) 0 clamp(60px, 8vw, 100px);
+  display: flex; flex-direction: column; justify-content: flex-end;
   background: var(--charcoal);
 }
 .hero::before {
@@ -238,35 +238,40 @@ section { position: relative; }
 .hero::after {
   content: ''; position: absolute; inset: 0; z-index: 1;
   background:
-    linear-gradient(90deg, rgba(45,52,54,0.88) 0%, rgba(45,52,54,0.7) 40%, rgba(45,52,54,0.2) 75%, rgba(45,52,54,0.05) 100%),
-    linear-gradient(180deg, rgba(45,52,54,0.4) 0%, rgba(45,52,54,0.15) 50%, rgba(45,52,54,0.6) 100%);
+    linear-gradient(180deg, rgba(45,52,54,0.05) 0%, rgba(45,52,54,0.15) 30%, rgba(45,52,54,0.7) 60%, rgba(45,52,54,0.92) 85%),
+    linear-gradient(90deg, rgba(45,52,54,0.5) 0%, rgba(45,52,54,0.1) 60%);
 }
 .hero .wrap { position: relative; z-index: 2; }
-.hero-content { max-width: 580px; }
+.hero-content { max-width: 620px; padding-bottom: 2rem; }
 .hero-eyebrow {
   font-size: var(--fs-micro); letter-spacing: 0.2em; text-transform: uppercase;
-  font-weight: 600; color: var(--teal-light); display: inline-flex;
-  align-items: center; gap: 0.75rem; margin-bottom: 1.5rem; opacity: 0.9;
+  font-weight: 600; color: var(--teal); display: inline-flex;
+  align-items: center; gap: 0.75rem; margin-bottom: 1.25rem;
 }
 .hero-eyebrow::before { content: ''; width: 1.5rem; height: 2px; background: var(--teal); display: inline-block; border-radius: 1px; }
 .hero h1 {
   font-family: 'Playfair Display', Georgia, serif; font-weight: 600;
   font-size: var(--fs-mega); line-height: 1.1; letter-spacing: -0.01em;
-  color: var(--white); margin-bottom: 1.25rem;
+  color: var(--white); margin-bottom: 1rem;
 }
 .hero h1 em { font-style: italic; color: var(--teal); }
 .hero-sub {
   font-size: clamp(0.95rem, 1.1vw, 1.0625rem); color: rgba(255,255,255,0.8);
-  line-height: 1.7; margin-bottom: 2rem; max-width: 520px;
+  line-height: 1.65; margin-bottom: 1.75rem; max-width: 520px;
 }
+.hero-sub.mobile-only { display: none; }
+.hero-sub.desktop-only { display: block; }
 .hero-btns { display: flex; flex-wrap: wrap; gap: 1rem; }
 
-/* Trust bar — inside hero, above fold */
-.trust-bar {
-  background: var(--white);
-  border-bottom: 1px solid var(--line-soft);
+/* Trust bar — inside hero */
+.hero-trust {
+  position: relative; z-index: 2;
+  background: rgba(255,255,255,0.1);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  border-top: 1px solid rgba(255,255,255,0.12);
   padding: 1rem 0;
-  position: relative; z-index: 3;
+  transform: translate3d(0,0,0);
 }
 .trust-bar-inner {
   display: flex; align-items: center; justify-content: center;
@@ -275,21 +280,21 @@ section { position: relative; }
 .trust-item { display: flex; align-items: center; gap: 0.5rem; text-align: center; white-space: nowrap; }
 .trust-number {
   font-family: 'DM Sans', sans-serif; font-weight: 700;
-  font-size: clamp(1rem, 1.3vw, 1.2rem); color: var(--charcoal);
+  font-size: clamp(1rem, 1.3vw, 1.15rem); color: var(--white);
 }
-.trust-label { font-size: var(--fs-micro); color: var(--muted); font-weight: 500; letter-spacing: 0.02em; }
-.trust-divider { width: 1px; height: 24px; background: var(--line); flex-shrink: 0; }
+.trust-label { font-size: var(--fs-micro); color: rgba(255,255,255,0.6); font-weight: 500; letter-spacing: 0.02em; }
+.trust-divider { width: 1px; height: 20px; background: rgba(255,255,255,0.2); flex-shrink: 0; }
 
 @media (max-width: 900px) {
-  .hero { padding: 0 0 clamp(40px, 5vw, 60px); min-height: 100svh; display: flex; flex-direction: column; justify-content: flex-end; }
-  .hero::before { background-position: center top; background-size: 100% auto; }
-  .hero::after { background: linear-gradient(180deg, rgba(45,52,54,0.1) 0%, rgba(45,52,54,0.3) 30%, rgba(45,52,54,0.85) 60%, rgba(45,52,54,0.95) 100%); }
+  .hero::before { background-position: center center; }
+  .hero::after { background: linear-gradient(180deg, rgba(45,52,54,0.05) 0%, rgba(45,52,54,0.2) 25%, rgba(45,52,54,0.8) 55%, rgba(45,52,54,0.95) 80%); }
   .hero-content { max-width: 100%; }
   .hero h1 { font-size: clamp(1.75rem, 7vw, 2.25rem); }
-  .hero-sub { font-size: 0.9rem; margin-bottom: 1.5rem; }
+  .hero-sub.desktop-only { display: none; }
+  .hero-sub.mobile-only { display: block; font-size: 0.95rem; }
 }
 @media (max-width: 700px) {
-  .trust-bar-inner { gap: 0.75rem; }
+  .trust-bar-inner { gap: 0.75rem; justify-content: flex-start; padding: 0 var(--gutter); }
   .trust-divider { display: none; }
   .trust-item { flex: 0 0 auto; }
 }
@@ -605,39 +610,38 @@ section { position: relative; }
     <div class="hero-content">
       <p class="hero-eyebrow">Father &amp; Son Dentists in Aurora, CO</p>
       <h1 class="display">The Only Dentist You'll <em>Actually</em> Look Forward to Visiting</h1>
-      <p class="hero-sub">Dr. Blake and Dr. Hunter Weber have been caring for Central Park families for over 30 years. No judgment, no rush, no anxiety. Just honest, gentle dentistry from people who genuinely know your name.</p>
+      <p class="hero-sub desktop-only">Dr. Blake and Dr. Hunter Weber have been caring for Central Park families for over 30 years. No judgment, no rush, no anxiety. Just honest, gentle dentistry from people who genuinely know your name.</p>
+      <p class="hero-sub mobile-only">30+ years of gentle, honest care. No judgment. No rush. Just two doctors who know your name.</p>
       <div class="hero-btns">
         <a href="#contact" class="btn btn-primary">Book Your Visit</a>
         <a href="tel:3033991488" class="btn btn-ghost">Call (303) 399-1488</a>
       </div>
     </div>
   </div>
-</section>
-
-<!-- Trust Bar -->
-<div class="trust-bar">
-  <div class="wrap trust-bar-inner">
-    <div class="trust-item">
-      <span class="trust-number">5.0 &#9733;</span>
-      <span class="trust-label">Google Rating</span>
-    </div>
-    <div class="trust-divider"></div>
-    <div class="trust-item">
-      <span class="trust-number">551+</span>
-      <span class="trust-label">Patient Reviews</span>
-    </div>
-    <div class="trust-divider"></div>
-    <div class="trust-item">
-      <span class="trust-number">30+</span>
-      <span class="trust-label">Years of Care</span>
-    </div>
-    <div class="trust-divider"></div>
-    <div class="trust-item">
-      <span class="trust-number">Father &amp; Son</span>
-      <span class="trust-label">Dr. Blake &amp; Dr. Hunter</span>
+  <div class="hero-trust">
+    <div class="wrap trust-bar-inner">
+      <div class="trust-item">
+        <span class="trust-number">5.0 &#9733;</span>
+        <span class="trust-label">Google</span>
+      </div>
+      <div class="trust-divider"></div>
+      <div class="trust-item">
+        <span class="trust-number">551+</span>
+        <span class="trust-label">Reviews</span>
+      </div>
+      <div class="trust-divider"></div>
+      <div class="trust-item">
+        <span class="trust-number">30+</span>
+        <span class="trust-label">Years</span>
+      </div>
+      <div class="trust-divider"></div>
+      <div class="trust-item">
+        <span class="trust-number">Father &amp; Son</span>
+        <span class="trust-label">Practice</span>
+      </div>
     </div>
   </div>
-</div>
+</section>
 
 <main id="main">
 
