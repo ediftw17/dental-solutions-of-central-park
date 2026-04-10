@@ -232,7 +232,7 @@ section { position: relative; }
 }
 .hero::before {
   content: ''; position: absolute; inset: 0; z-index: 0;
-  background: url('assets/hero.jpg') right center / cover no-repeat;
+  background: url('assets/hero.jpg') center 15% / cover no-repeat;
   transform: translate3d(0,0,0);
 }
 .hero::after {
@@ -555,14 +555,87 @@ p.desktop-only { display: block; }
    BADGE STRIP
    ============================================ */
 .badge-strip {
-  background: var(--sage-light); padding: clamp(1.5rem, 3vw, 2rem) 0;
+  background: var(--sage-light); padding: clamp(2.5rem, 5vw, 4rem) 0;
 }
 .badge-strip-inner {
-  display: flex; align-items: center; justify-content: center; gap: 2rem; flex-wrap: wrap;
+  display: flex; align-items: center; justify-content: center; gap: clamp(1.5rem, 3vw, 3rem); flex-wrap: wrap;
 }
-.badge-strip-inner img { height: 70px; width: auto; border-radius: var(--radius-sm); box-shadow: var(--shadow-sm); }
-.badge-text { font-family: 'Playfair Display', Georgia, serif; font-size: 1.125rem; font-weight: 500; color: var(--charcoal); }
+.badge-strip-inner img {
+  height: auto; width: clamp(180px, 20vw, 260px); border-radius: var(--radius); box-shadow: var(--shadow-md);
+  object-fit: cover;
+}
+.badge-text { font-family: 'Playfair Display', Georgia, serif; font-size: clamp(1.125rem, 1.5vw, 1.375rem); font-weight: 500; color: var(--charcoal); max-width: 360px; line-height: 1.5; }
 .badge-text strong { color: var(--sage-dark); font-weight: 700; }
+
+/* ============================================
+   BEFORE/AFTER GALLERY
+   ============================================ */
+.ba-section { background: var(--cream); }
+.ba-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; }
+.ba-pair {
+  background: var(--white); border-radius: var(--radius-lg); overflow: hidden;
+  border: 1px solid var(--line-soft); transition: all var(--t-med) var(--ease);
+  transform: translate3d(0,0,0);
+}
+.ba-pair:hover { transform: translate3d(0,-4px,0); box-shadow: var(--shadow-lg); }
+.ba-images { display: grid; grid-template-columns: 1fr 1fr; }
+.ba-img { position: relative; overflow: hidden; height: 220px; }
+.ba-img img { width: 100%; height: 100%; object-fit: cover; }
+.ba-label {
+  position: absolute; bottom: 0.75rem; left: 0.75rem;
+  background: rgba(45,52,54,0.75); color: var(--white);
+  font-size: var(--fs-micro); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;
+  padding: 0.3rem 0.75rem; border-radius: 50px;
+  -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px);
+}
+.ba-label--after { background: rgba(91,190,196,0.85); }
+.ba-caption { padding: 1rem 1.25rem; }
+.ba-caption p { font-size: var(--fs-sm); font-weight: 500; color: var(--charcoal); }
+@media (max-width: 900px) { .ba-grid { grid-template-columns: 1fr; } }
+@media (max-width: 500px) { .ba-img { height: 160px; } }
+
+/* ============================================
+   PRACTICE PHOTO GALLERY
+   ============================================ */
+.gallery-section { background: var(--warm-white); }
+.gallery-scroll {
+  display: flex; gap: 1rem; overflow-x: auto; scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch; padding-bottom: 1rem;
+  scrollbar-width: thin; scrollbar-color: var(--teal) var(--line-soft);
+}
+.gallery-scroll::-webkit-scrollbar { height: 6px; }
+.gallery-scroll::-webkit-scrollbar-track { background: var(--line-soft); border-radius: 3px; }
+.gallery-scroll::-webkit-scrollbar-thumb { background: var(--teal); border-radius: 3px; }
+.gallery-scroll-item {
+  flex: 0 0 auto; width: clamp(240px, 28vw, 340px); height: clamp(200px, 22vw, 280px);
+  border-radius: var(--radius); overflow: hidden; scroll-snap-align: start;
+  transition: transform var(--t-med) var(--ease);
+}
+.gallery-scroll-item:hover { transform: scale(1.03); }
+.gallery-scroll-item img { width: 100%; height: 100%; object-fit: cover; }
+
+/* ============================================
+   FINANCING BANNER (updated)
+   ============================================ */
+.financing-section {
+  background: linear-gradient(135deg, var(--teal) 0%, var(--teal-dark) 100%);
+  color: var(--white);
+}
+.financing-inner {
+  display: flex; align-items: center; justify-content: space-between; gap: 2.5rem; flex-wrap: wrap;
+}
+.financing-text { max-width: 600px; }
+.financing-text h2 { font-family: 'Playfair Display', Georgia, serif; font-size: clamp(1.5rem, 3vw, 2rem); font-weight: 600; margin-bottom: 0.75rem; }
+.financing-text p { font-size: var(--fs-body); opacity: 0.92; line-height: 1.7; }
+.financing-logos { display: flex; align-items: center; gap: 1.5rem; flex-shrink: 0; }
+.financing-logos img {
+  height: clamp(40px, 5vw, 56px); width: auto; background: var(--white);
+  border-radius: var(--radius-sm); padding: 0.5rem 0.75rem; box-shadow: var(--shadow-sm);
+}
+@media (max-width: 700px) {
+  .financing-inner { flex-direction: column; text-align: center; }
+  .financing-logos { justify-content: center; }
+}
 
 </style>
 </head>
@@ -714,6 +787,49 @@ p.desktop-only { display: block; }
           <h3>Sedation Dentistry</h3>
           <p>Nitrous oxide sedation makes any procedure comfortable. If dental anxiety has kept you away, this changes everything.</p>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     BEFORE/AFTER SMILE GALLERY
+     ============================================ -->
+<section class="ba-section section-pad" id="gallery">
+  <div class="wrap">
+    <div class="section-header fade-in">
+      <p class="eyebrow">Smile Transformations</p>
+      <h2 class="display">Real Results</h2>
+      <p>Every smile tells a story. Here are a few transformations from real patients at our practice.</p>
+    </div>
+    <div class="ba-grid">
+      <div class="ba-pair fade-in">
+        <div class="ba-images">
+          <div class="ba-img"><img src="assets/gallery/gallery-22.jpg" alt="Before full mouth rehabilitation" loading="lazy" /><span class="ba-label">Before</span></div>
+          <div class="ba-img"><img src="assets/gallery/gallery-23.jpg" alt="After full mouth rehabilitation" loading="lazy" /><span class="ba-label ba-label--after">After</span></div>
+        </div>
+        <div class="ba-caption"><p>Full Mouth Rehabilitation</p></div>
+      </div>
+      <div class="ba-pair fade-in fade-in-delay-1">
+        <div class="ba-images">
+          <div class="ba-img"><img src="assets/gallery/gallery-24.jpg" alt="Before professional whitening" loading="lazy" /><span class="ba-label">Before</span></div>
+          <div class="ba-img"><img src="assets/gallery/gallery-25.jpg" alt="After professional whitening" loading="lazy" /><span class="ba-label ba-label--after">After</span></div>
+        </div>
+        <div class="ba-caption"><p>Professional Whitening</p></div>
+      </div>
+      <div class="ba-pair fade-in">
+        <div class="ba-images">
+          <div class="ba-img"><img src="assets/gallery/gallery-30.jpg" alt="Before Invisalign treatment" loading="lazy" /><span class="ba-label">Before</span></div>
+          <div class="ba-img"><img src="assets/gallery/gallery-31.jpg" alt="After Invisalign treatment" loading="lazy" /><span class="ba-label ba-label--after">After</span></div>
+        </div>
+        <div class="ba-caption"><p>Invisalign</p></div>
+      </div>
+      <div class="ba-pair fade-in fade-in-delay-1">
+        <div class="ba-images">
+          <div class="ba-img"><img src="assets/gallery/gallery-26.jpg" alt="Before whitening case 2" loading="lazy" /><span class="ba-label">Before</span></div>
+          <div class="ba-img"><img src="assets/gallery/gallery-27.jpg" alt="After whitening case 2" loading="lazy" /><span class="ba-label ba-label--after">After</span></div>
+        </div>
+        <div class="ba-caption"><p>Whitening</p></div>
       </div>
     </div>
   </div>
@@ -913,6 +1029,53 @@ p.desktop-only { display: block; }
     </div>
     <div class="review-cta fade-in">
       <a href="https://www.google.com/maps/search/?api=1&query=Dental+Solutions+of+Central+Park&ludocid=7388408173480301176" target="_blank" rel="noopener noreferrer" class="btn btn-ghost" style="border-color:rgba(255,255,255,0.2);">Read All 551+ Reviews on Google</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     PRACTICE PHOTO GALLERY
+     ============================================ -->
+<section class="gallery-section section-pad" id="practice-gallery">
+  <div class="wrap">
+    <div class="section-header fade-in">
+      <p class="eyebrow">Stanley Marketplace</p>
+      <h2 class="display">Inside Our Practice</h2>
+      <p>Modern technology, a welcoming team, and a space designed to put you at ease.</p>
+    </div>
+  </div>
+  <div class="wrap" style="max-width:100%; padding-left:var(--gutter); padding-right:0;">
+    <div class="gallery-scroll fade-in">
+      <div class="gallery-scroll-item"><img src="assets/gallery/gallery-11.png" alt="Dental Solutions office interior" loading="lazy" /></div>
+      <div class="gallery-scroll-item"><img src="assets/gallery/gallery-12.jpg" alt="Modern dental workstation" loading="lazy" /></div>
+      <div class="gallery-scroll-item"><img src="assets/gallery/gallery-14.jpg" alt="Dental Solutions team photo" loading="lazy" /></div>
+      <div class="gallery-scroll-item"><img src="assets/gallery/gallery-16.jpg" alt="Intraoral camera technology" loading="lazy" /></div>
+      <div class="gallery-scroll-item"><img src="assets/gallery/gallery-17.jpg" alt="Digital X-ray equipment" loading="lazy" /></div>
+      <div class="gallery-scroll-item"><img src="assets/gallery/gallery-18.jpg" alt="Dental Solutions office" loading="lazy" /></div>
+      <div class="gallery-scroll-item"><img src="assets/gallery/gallery-19.jpg" alt="Practice lifestyle" loading="lazy" /></div>
+      <div class="gallery-scroll-item"><img src="assets/gallery/gallery-20.jpg" alt="Dental Solutions team" loading="lazy" /></div>
+      <div class="gallery-scroll-item"><img src="assets/gallery/gallery-21.jpg" alt="Patient care at Dental Solutions" loading="lazy" /></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     FINANCING
+     ============================================ -->
+<section class="financing-section section-pad">
+  <div class="wrap">
+    <div class="financing-inner fade-in">
+      <div class="financing-text">
+        <h2>Care Should Never Be Out of Reach</h2>
+        <p>We accept cash, debit, credit, and all dental insurance. Need flexible payments? We partner with CareCredit and Cherry Financing so cost never keeps you from getting the care you need.</p>
+      </div>
+      <div style="display:flex; flex-direction:column; align-items:center; gap:1.25rem;">
+        <div class="financing-logos">
+          <img src="assets/gallery/gallery-44.png" alt="CareCredit financing partner" loading="lazy" />
+          <img src="assets/gallery/gallery-45.webp" alt="Cherry financing partner" loading="lazy" />
+        </div>
+        <a href="tel:3033991488" class="btn btn-ghost">Ask About Payment Options</a>
+      </div>
     </div>
   </div>
 </section>
