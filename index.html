@@ -73,7 +73,7 @@ body {
   font-weight: 400; line-height: 1.65;
   color: var(--ink); background: var(--warm-white);
   -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden;
+  overflow-x: hidden; max-width: 100vw;
 }
 img { max-width: 100%; display: block; }
 a { color: inherit; text-decoration: none; }
@@ -1068,7 +1068,7 @@ p.desktop-only { display: block; }
       <p>Modern technology, a welcoming team, and a space designed to put you at ease.</p>
     </div>
   </div>
-  <div class="wrap" style="max-width:100%; padding-left:var(--gutter); padding-right:0;">
+  <div class="wrap" style="max-width:100%; overflow:hidden;">
     <div class="gallery-scroll fade-in">
       <div class="gallery-scroll-item"><img src="assets/gallery/gallery-11.png" alt="Dental Solutions office interior panorama" loading="lazy" /></div>
       <div class="gallery-scroll-item"><img src="assets/gallery/gallery-12.jpg" alt="Modern dental operatory with iTero scanner" loading="lazy" /></div>
