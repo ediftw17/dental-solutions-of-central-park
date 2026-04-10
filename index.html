@@ -224,10 +224,12 @@ section { position: relative; }
 .mobile-nav-close:hover { opacity: 1; }
 
 @media (max-width: 900px) {
-  .nav-links, .nav-cta .btn-primary { display: none; }
+  .nav-links { display: none; }
+  .nav-cta { display: none; }
   .hamburger { display: flex; }
-  .nav-cta .nav-phone { display: none; }
   .hero-content { margin-left: 0; margin-right: 0; }
+  .nav-logo { flex-shrink: 1; min-width: 0; }
+  .nav-logo img { max-width: 160px; }
 }
 
 /* Sticky call button — mobile only */
