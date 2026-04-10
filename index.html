@@ -259,8 +259,9 @@ section { position: relative; }
   font-size: clamp(0.95rem, 1.1vw, 1.0625rem); color: rgba(255,255,255,0.8);
   line-height: 1.65; margin-bottom: 1.75rem; max-width: 520px;
 }
-.hero-sub.mobile-only { display: none; }
-.hero-sub.desktop-only { display: block; }
+.mobile-only { display: none; }
+.desktop-only { display: inline; }
+p.desktop-only { display: block; }
 .hero-btns { display: flex; flex-wrap: wrap; gap: 1rem; }
 
 /* Trust bar — inside hero */
@@ -290,8 +291,12 @@ section { position: relative; }
   .hero::after { background: linear-gradient(180deg, rgba(45,52,54,0.05) 0%, rgba(45,52,54,0.2) 25%, rgba(45,52,54,0.8) 55%, rgba(45,52,54,0.95) 80%); }
   .hero-content { max-width: 100%; }
   .hero h1 { font-size: clamp(1.75rem, 7vw, 2.25rem); }
-  .hero-sub.desktop-only { display: none; }
-  .hero-sub.mobile-only { display: block; font-size: 0.95rem; }
+  .desktop-only { display: none !important; }
+  .mobile-only { display: inline !important; }
+  p.mobile-only { display: block !important; }
+  .hero-sub { font-size: 0.95rem; margin-bottom: 1.25rem; }
+  .hero-btns { gap: 0.75rem; }
+  .hero-btns .btn { padding: 0.75rem 1.5rem; min-height: 44px; font-size: 0.85rem; }
   .trust-bar-inner { justify-content: center; gap: clamp(0.5rem, 1.5vw, 1rem); flex-wrap: nowrap; }
   .trust-number { font-size: 0.8rem; }
   .trust-label { font-size: 0.55rem; }
@@ -608,13 +613,13 @@ section { position: relative; }
 <section class="hero" id="home">
   <div class="wrap">
     <div class="hero-content">
-      <p class="hero-eyebrow">Father &amp; Son Dentists in Aurora, CO</p>
-      <h1 class="display">The Only Dentist You'll <em>Actually</em> Look Forward to Visiting</h1>
+      <p class="hero-eyebrow"><span class="desktop-only">Father &amp; Son Dentists in Aurora, CO</span><span class="mobile-only">Aurora, CO Dentists</span></p>
+      <h1 class="display"><span class="desktop-only">The Only Dentist You'll <em>Actually</em> Look Forward to Visiting</span><span class="mobile-only">Dentistry That <em>Actually</em> Cares</span></h1>
       <p class="hero-sub desktop-only">Dr. Blake and Dr. Hunter Weber have been caring for Central Park families for over 30 years. No judgment, no rush, no anxiety. Just honest, gentle dentistry from people who genuinely know your name.</p>
-      <p class="hero-sub mobile-only">30+ years of gentle, honest care. No judgment. No rush. Just two doctors who know your name.</p>
+      <p class="hero-sub mobile-only">Father &amp; son care. 30+ years. No judgment.</p>
       <div class="hero-btns">
         <a href="#contact" class="btn btn-primary">Book Your Visit</a>
-        <a href="tel:3033991488" class="btn btn-ghost">Call (303) 399-1488</a>
+        <a href="tel:3033991488" class="btn btn-ghost">Call Now</a>
       </div>
     </div>
   </div>
