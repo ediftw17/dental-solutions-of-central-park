@@ -555,17 +555,28 @@ p.desktop-only { display: block; }
    BADGE STRIP
    ============================================ */
 .badge-strip {
-  background: var(--sage-light); padding: clamp(2.5rem, 5vw, 4rem) 0;
+  position: relative; overflow: hidden; min-height: 400px; display: flex; align-items: center;
+}
+.badge-strip::before {
+  content: ''; position: absolute; inset: 0; z-index: 0;
+  background: url('assets/invisalign-award.jpg') center center / cover no-repeat;
+  transform: translate3d(0,0,0);
+}
+.badge-strip::after {
+  content: ''; position: absolute; inset: 0; z-index: 1;
+  background: linear-gradient(90deg, rgba(240,247,229,0.92) 0%, rgba(240,247,229,0.85) 50%, rgba(240,247,229,0.4) 100%);
 }
 .badge-strip-inner {
-  display: flex; align-items: center; justify-content: center; gap: clamp(1.5rem, 3vw, 3rem); flex-wrap: wrap;
+  position: relative; z-index: 2;
+  display: flex; align-items: center; gap: clamp(1.5rem, 3vw, 3rem); flex-wrap: wrap;
 }
-.badge-strip-inner img {
-  height: auto; width: clamp(180px, 20vw, 260px); border-radius: var(--radius); box-shadow: var(--shadow-md);
-  object-fit: cover;
-}
-.badge-text { font-family: 'Playfair Display', Georgia, serif; font-size: clamp(1.125rem, 1.5vw, 1.375rem); font-weight: 500; color: var(--charcoal); max-width: 360px; line-height: 1.5; }
+.badge-strip-inner > img { display: none; }
+.badge-text { font-family: 'Playfair Display', Georgia, serif; font-size: clamp(1.25rem, 2vw, 1.75rem); font-weight: 500; color: var(--charcoal); max-width: 480px; line-height: 1.45; }
 .badge-text strong { color: var(--sage-dark); font-weight: 700; }
+@media (max-width: 900px) {
+  .badge-strip { min-height: 300px; }
+  .badge-strip::after { background: rgba(240,247,229,0.88); }
+}
 
 /* ============================================
    BEFORE/AFTER GALLERY
@@ -1044,15 +1055,14 @@ p.desktop-only { display: block; }
   </div>
   <div class="wrap" style="max-width:100%; padding-left:var(--gutter); padding-right:0;">
     <div class="gallery-scroll fade-in">
-      <div class="gallery-scroll-item"><img src="assets/gallery/gallery-11.png" alt="Dental Solutions office interior" loading="lazy" /></div>
-      <div class="gallery-scroll-item"><img src="assets/gallery/gallery-12.jpg" alt="Modern dental workstation" loading="lazy" /></div>
-      <div class="gallery-scroll-item"><img src="assets/gallery/gallery-14.jpg" alt="Dental Solutions team photo" loading="lazy" /></div>
-      <div class="gallery-scroll-item"><img src="assets/gallery/gallery-16.jpg" alt="Intraoral camera technology" loading="lazy" /></div>
-      <div class="gallery-scroll-item"><img src="assets/gallery/gallery-17.jpg" alt="Digital X-ray equipment" loading="lazy" /></div>
-      <div class="gallery-scroll-item"><img src="assets/gallery/gallery-18.jpg" alt="Dental Solutions office" loading="lazy" /></div>
-      <div class="gallery-scroll-item"><img src="assets/gallery/gallery-19.jpg" alt="Practice lifestyle" loading="lazy" /></div>
-      <div class="gallery-scroll-item"><img src="assets/gallery/gallery-20.jpg" alt="Dental Solutions team" loading="lazy" /></div>
-      <div class="gallery-scroll-item"><img src="assets/gallery/gallery-21.jpg" alt="Patient care at Dental Solutions" loading="lazy" /></div>
+      <div class="gallery-scroll-item"><img src="assets/gallery/gallery-11.png" alt="Dental Solutions office interior panorama" loading="lazy" /></div>
+      <div class="gallery-scroll-item"><img src="assets/gallery/gallery-12.jpg" alt="Modern dental operatory with iTero scanner" loading="lazy" /></div>
+      <div class="gallery-scroll-item"><img src="assets/gallery/gallery-13.jpg" alt="Dental operatory with scenic window view" loading="lazy" /></div>
+      <div class="gallery-scroll-item"><img src="assets/gallery/gallery-14.jpg" alt="Team celebrating Invisalign Gold Provider award" loading="lazy" /></div>
+      <div class="gallery-scroll-item"><img src="assets/gallery/gallery-15.jpg" alt="Full team photo at Dental Solutions of Central Park" loading="lazy" /></div>
+      <div class="gallery-scroll-item"><img src="assets/hero.jpg" alt="Dr. Blake and Dr. Hunter Weber in the office" loading="lazy" /></div>
+      <div class="gallery-scroll-item"><img src="assets/office.png" alt="Dental Solutions office at Stanley Marketplace" loading="lazy" /></div>
+      <div class="gallery-scroll-item"><img src="assets/lifestyle-2.jpg" alt="Patient care at Dental Solutions" loading="lazy" /></div>
     </div>
   </div>
 </section>
