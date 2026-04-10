@@ -555,27 +555,20 @@ p.desktop-only { display: block; }
    BADGE STRIP
    ============================================ */
 .badge-strip {
-  position: relative; overflow: hidden; min-height: 400px; display: flex; align-items: center;
-}
-.badge-strip::before {
-  content: ''; position: absolute; inset: 0; z-index: 0;
-  background: url('assets/invisalign-award.jpg') center center / cover no-repeat;
-  transform: translate3d(0,0,0);
-}
-.badge-strip::after {
-  content: ''; position: absolute; inset: 0; z-index: 1;
-  background: linear-gradient(90deg, rgba(240,247,229,0.92) 0%, rgba(240,247,229,0.85) 50%, rgba(240,247,229,0.4) 100%);
+  background: var(--sage-light); overflow: hidden;
 }
 .badge-strip-inner {
-  position: relative; z-index: 2;
-  display: flex; align-items: center; gap: clamp(1.5rem, 3vw, 3rem); flex-wrap: wrap;
+  display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 0;
 }
-.badge-strip-inner > img { display: none; }
+.badge-strip-content { padding: clamp(2rem, 4vw, 3.5rem) clamp(1.5rem, 3vw, 3rem); display: flex; flex-direction: column; align-items: flex-start; gap: 1.5rem; }
+.badge-strip-inner > img {
+  height: 100%; width: auto; max-height: 360px; object-fit: contain; display: block; align-self: stretch;
+}
 .badge-text { font-family: 'Playfair Display', Georgia, serif; font-size: clamp(1.25rem, 2vw, 1.75rem); font-weight: 500; color: var(--charcoal); max-width: 480px; line-height: 1.45; }
 .badge-text strong { color: var(--sage-dark); font-weight: 700; }
-@media (max-width: 900px) {
-  .badge-strip { min-height: 300px; }
-  .badge-strip::after { background: rgba(240,247,229,0.88); }
+@media (max-width: 700px) {
+  .badge-strip-inner { grid-template-columns: 1fr; }
+  .badge-strip-inner > img { max-height: 280px; margin: 0 auto; padding: 1.5rem; }
 }
 
 /* ============================================
@@ -849,9 +842,11 @@ p.desktop-only { display: block; }
      ============================================ -->
 <div class="badge-strip">
   <div class="wrap badge-strip-inner">
+    <div class="badge-strip-content">
+      <p class="badge-text">Dr. Hunter Weber is a certified <strong>Invisalign Gold Provider</strong>. Straighter teeth without a mouth full of metal.</p>
+      <a href="#contact" class="btn btn-teal">Ask About Invisalign</a>
+    </div>
     <img src="assets/invisalign-award.jpg" alt="Invisalign Gold Provider 2024 award at Dental Solutions of Central Park" loading="lazy" />
-    <p class="badge-text">Dr. Hunter Weber is a certified <strong>Invisalign Provider</strong>. Straighter teeth without a mouth full of metal.</p>
-    <a href="#contact" class="btn btn-teal" style="padding:0.65rem 1.5rem; font-size:0.8125rem;">Ask About Invisalign</a>
   </div>
 </div>
 
