@@ -1,0 +1,290 @@
+{
+  "gallery_photos": [
+    {
+      "path": "assets/gallery/gallery-01.png",
+      "description": "Dr. Blake Weber, DDS",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2024/12/Dr.-Blake.png",
+      "category": "team"
+    },
+    {
+      "path": "assets/gallery/gallery-02.png",
+      "description": "Dr. Hunter Weber, DDS",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2025/01/Dr.-Hunter-Weber.png",
+      "category": "team"
+    },
+    {
+      "path": "assets/gallery/gallery-03.png",
+      "description": "Ivona - Dental Assistant",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2024/12/Ivona-portrait.png",
+      "category": "team"
+    },
+    {
+      "path": "assets/gallery/gallery-04.png",
+      "description": "Alexis - Hygienist",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2024/12/Alexis-new.png",
+      "category": "team"
+    },
+    {
+      "path": "assets/gallery/gallery-05.png",
+      "description": "Angela - Dental Assistant",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2024/12/Angela-portrait.png",
+      "category": "team"
+    },
+    {
+      "path": "assets/gallery/gallery-06.png",
+      "description": "Geri - Front Desk",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2024/12/Geri-portrait.png",
+      "category": "team"
+    },
+    {
+      "path": "assets/gallery/gallery-07.jpg",
+      "description": "Arianna - Hygienist",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2023/10/image_50728705.jpg",
+      "category": "team"
+    },
+    {
+      "path": "assets/gallery/gallery-08.jpg",
+      "description": "Ashlin - Front Desk",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2024/06/Ashlin.jpg",
+      "category": "team"
+    },
+    {
+      "path": "assets/gallery/gallery-09.jpg",
+      "description": "Abigail - Hygienist",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2024/06/Abigail.jpg",
+      "category": "team"
+    },
+    {
+      "path": "assets/gallery/gallery-10.png",
+      "description": "Heather - Hygienist",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2025/04/Heather.png",
+      "category": "team"
+    },
+    {
+      "path": "assets/gallery/gallery-11.png",
+      "description": "Office Photos",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2025/01/Office-Photos.png",
+      "category": "office"
+    },
+    {
+      "path": "assets/gallery/gallery-12.jpg",
+      "description": "Dental Workstation",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2025/01/IMG_3976-scaled.jpg",
+      "category": "office"
+    },
+    {
+      "path": "assets/gallery/gallery-13.jpg",
+      "description": "Modern technology in office",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2025/01/IMG_3975-scaled.jpg",
+      "category": "office"
+    },
+    {
+      "path": "assets/gallery/gallery-14.jpg",
+      "description": "Team photo",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2023/09/IMG-6553-scaled-e1737143208457.jpg",
+      "category": "office"
+    },
+    {
+      "path": "assets/gallery/gallery-15.jpg",
+      "description": "Team header background",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2024/06/Team-scaled.jpg",
+      "category": "office"
+    },
+    {
+      "path": "assets/gallery/gallery-16.jpg",
+      "description": "Intraoral Camera Usage",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2020/10/intraoral-camera.jpg",
+      "category": "office"
+    },
+    {
+      "path": "assets/gallery/gallery-17.jpg",
+      "description": "Digital X-Rays",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2020/10/digital-x-rays.jpg",
+      "category": "office"
+    },
+    {
+      "path": "assets/gallery/gallery-18.jpg",
+      "description": "Sedation Relaxation",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2020/10/relaxing-sedation.jpg",
+      "category": "office"
+    },
+    {
+      "path": "assets/gallery/gallery-19.jpg",
+      "description": "Emergency Care Patient",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2020/10/convenient-care.jpg",
+      "category": "office"
+    },
+    {
+      "path": "assets/gallery/gallery-20.jpg",
+      "description": "Restorative care image",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2022/12/Depositphotos_159677836_S.jpg",
+      "category": "office"
+    },
+    {
+      "path": "assets/gallery/gallery-21.jpg",
+      "description": "Cosmetic dentistry image",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2022/12/Depositphotos_5963511_S.jpg",
+      "category": "office"
+    },
+    {
+      "path": "assets/gallery/gallery-22.jpg",
+      "description": "Full Mouth Rehab - Veneers and Crowns case 1",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2023/04/P2140045-side-900x338.jpg",
+      "category": "before-after"
+    },
+    {
+      "path": "assets/gallery/gallery-23.jpg",
+      "description": "Full Mouth Rehab - Veneers and Crowns case 2",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2023/04/PC160030-side-900x338.jpg",
+      "category": "before-after"
+    },
+    {
+      "path": "assets/gallery/gallery-24.jpg",
+      "description": "Whitening case 1",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2023/04/P1120046-2-side-900x338.jpg",
+      "category": "before-after"
+    },
+    {
+      "path": "assets/gallery/gallery-25.jpg",
+      "description": "Whitening case 2",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2023/04/PC210018-side-900x287.jpg",
+      "category": "before-after"
+    },
+    {
+      "path": "assets/gallery/gallery-26.jpg",
+      "description": "Whitening case 3",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2023/04/PC050109-3-side-900x328.jpg",
+      "category": "before-after"
+    },
+    {
+      "path": "assets/gallery/gallery-27.jpg",
+      "description": "Whitening case 4",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2023/07/P7130222-side-900x291.jpg",
+      "category": "before-after"
+    },
+    {
+      "path": "assets/gallery/gallery-28.jpg",
+      "description": "Invisalign case 1",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2023/04/P3220074-side-900x227.jpg",
+      "category": "before-after"
+    },
+    {
+      "path": "assets/gallery/gallery-29.jpg",
+      "description": "Invisalign case 2",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2023/05/TN640x400-VOI39390603_i_anterior-1-3-side-900x332.jpg",
+      "category": "before-after"
+    },
+    {
+      "path": "assets/gallery/gallery-30.jpg",
+      "description": "Invisalign case 3",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2023/10/P4070086-side-900x338.jpg",
+      "category": "before-after"
+    },
+    {
+      "path": "assets/gallery/gallery-31.jpg",
+      "description": "Invisalign case 4",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2023/10/P4070084-side-900x338.jpg",
+      "category": "before-after"
+    },
+    {
+      "path": "assets/gallery/gallery-32.jpg",
+      "description": "Invisalign case 5",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2024/02/DR-before.after_-900x338.jpg",
+      "category": "before-after"
+    },
+    {
+      "path": "assets/gallery/gallery-33.jpg",
+      "description": "Invisalign case 6",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2024/02/AH-Before.After_-900x338.jpg",
+      "category": "before-after"
+    },
+    {
+      "path": "assets/gallery/gallery-34.jpg",
+      "description": "Invisalign case 7",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2024/03/P5310149-side-900x338.jpg",
+      "category": "before-after"
+    },
+    {
+      "path": "assets/gallery/gallery-35.jpg",
+      "description": "Invisalign Promotion",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2024/10/MESA-Invisalign-Promotion-900x303.jpg",
+      "category": "before-after"
+    },
+    {
+      "path": "assets/gallery/gallery-36.jpg",
+      "description": "Invisalign case 8",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2025/07/RB-900x241.jpg",
+      "category": "before-after"
+    },
+    {
+      "path": "assets/gallery/gallery-37.jpg",
+      "description": "Invisalign case 9",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2025/07/P3270087-side-900x290.jpg",
+      "category": "before-after"
+    },
+    {
+      "path": "assets/gallery/gallery-38.jpg",
+      "description": "Invisalign case 10",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2025/07/P4030102-side-900x311.jpg",
+      "category": "before-after"
+    },
+    {
+      "path": "assets/gallery/gallery-39.jpg",
+      "description": "Invisalign case 11",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2025/07/P5140018-side-900x338.jpg",
+      "category": "before-after"
+    },
+    {
+      "path": "assets/gallery/gallery-40.jpg",
+      "description": "Invisalign case 12",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2025/07/P7100065-side-900x283.jpg",
+      "category": "before-after"
+    },
+    {
+      "path": "assets/gallery/gallery-41.jpg",
+      "description": "Veneers case 1",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2025/07/P5140022-side-900x336.jpg",
+      "category": "before-after"
+    },
+    {
+      "path": "assets/gallery/gallery-42.jpg",
+      "description": "Veneers case 2",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2023/04/PC050117-2-side-900x338.jpg",
+      "category": "before-after"
+    },
+    {
+      "path": "assets/gallery/gallery-43.jpg",
+      "description": "Veneers case 3",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2023/05/CJ-Zoom-2-900x288.jpg",
+      "category": "before-after"
+    },
+    {
+      "path": "assets/gallery/gallery-44.webp",
+      "description": "CareCredit logo",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2025/04/carecreditb2-700x219.webp",
+      "category": "award"
+    },
+    {
+      "path": "assets/gallery/gallery-45.webp",
+      "description": "Cherry Financing logo",
+      "source_url": "https://dentalsolutionsofcp.com/wp-content/uploads/2025/04/CherryFinancing.webp",
+      "category": "award"
+    }
+  ],
+  "video": {
+    "url": "https://dentalsolutionsofcp.com/ (embedded but URL not extracted)",
+    "type": "embedded",
+    "description": "Welcome/practice overview video on homepage - source URL not accessible from page source"
+  },
+  "before_after": [
+    {
+      "before": "before/after smile transformations",
+      "after": "",
+      "description": "All 23 before/after smile cases categorized as gallery-07 through gallery-29"
+    }
+  ],
+  "financing_info": "Dental Solutions accepts: cash, debit cards, credit cards, dental insurance, and CareCredit. They also partner with Cherry Financing for flexible payment plans. Website: carecredit.com and withcherry.com for details.",
+  "total_scraped": 45,
+  "failed_downloads": 0,
+  "download_timestamp": "2026-04-10T06:35:50.032062"
+}
