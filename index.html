@@ -215,6 +215,13 @@ section { position: relative; }
 }
 .mobile-nav a:hover { opacity: 1; }
 .mobile-nav .btn { margin-top: 1rem; }
+.mobile-nav-close {
+  position: absolute; top: 1.25rem; right: 1.25rem;
+  width: 44px; height: 44px; display: flex; align-items: center; justify-content: center;
+  font-size: 2rem; color: var(--white); background: none; border: none; cursor: pointer;
+  opacity: 0.7; transition: opacity var(--t-fast);
+}
+.mobile-nav-close:hover { opacity: 1; }
 
 @media (max-width: 900px) {
   .nav-links, .nav-cta .btn-primary { display: none; }
@@ -697,6 +704,7 @@ p.desktop-only { display: block; }
 
 <!-- Mobile nav -->
 <div class="mobile-nav" role="dialog" aria-label="Mobile navigation">
+  <button class="mobile-nav-close" aria-label="Close menu">&times;</button>
   <a href="#services">Services</a>
   <a href="#about">Meet the Doctors</a>
   <a href="#reviews">Reviews</a>
@@ -1302,6 +1310,15 @@ p.desktop-only { display: block; }
     nav.classList.toggle('menu-open', open);
     hamburger.setAttribute('aria-expanded', open);
     document.body.style.overflow = open ? 'hidden' : '';
+  });
+
+  var closeBtn = document.querySelector('.mobile-nav-close');
+  if(closeBtn) closeBtn.addEventListener('click', function(){
+    hamburger.classList.remove('open');
+    mobileNav.classList.remove('open');
+    nav.classList.remove('menu-open');
+    hamburger.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
   });
 
   mobileNav.querySelectorAll('a').forEach(function(a){
