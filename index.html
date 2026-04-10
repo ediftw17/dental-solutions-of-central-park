@@ -507,7 +507,7 @@ p.desktop-only { display: block; }
    ============================================ */
 .footer { background: var(--charcoal); color: var(--white); padding: clamp(3rem, 6vw, 5rem) 0 2rem; }
 .footer-grid {
-  display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 2.5rem;
+  display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 2.5rem;
   padding-bottom: 3rem; border-bottom: 1px solid rgba(255,255,255,0.08);
 }
 .footer-brand img { height: 44px; width: auto; margin-bottom: 1rem; filter: brightness(10); }
@@ -538,6 +538,7 @@ p.desktop-only { display: block; }
 }
 @media (max-width: 500px) {
   .footer-grid { grid-template-columns: 1fr 1fr; }
+  .footer-brand { grid-column: 1 / -1; }
   .footer-bottom { flex-direction: column; align-items: flex-start; }
 }
 
@@ -1222,20 +1223,12 @@ p.desktop-only { display: block; }
         </div>
       </div>
       <div>
-        <h4>Services</h4>
+        <h4>Quick Links</h4>
         <div class="footer-links">
-          <a href="#services">Cleanings &amp; Exams</a>
-          <a href="#services">Cosmetic Dentistry</a>
-          <a href="#services">Dental Implants</a>
-          <a href="#services">Invisalign</a>
-          <a href="#services">Emergency Dental</a>
-        </div>
-      </div>
-      <div>
-        <h4>Practice</h4>
-        <div class="footer-links">
+          <a href="#services">Services</a>
           <a href="#about">Meet the Doctors</a>
           <a href="#reviews">Patient Reviews</a>
+          <a href="#gallery">Smile Gallery</a>
           <a href="#location">Location &amp; Hours</a>
           <a href="#contact">Request Appointment</a>
         </div>
